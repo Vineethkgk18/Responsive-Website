@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Alata,sans-serif;
+
+}
+
+.row{
+    text-align: center;
+}
+
+
+.header-image{
+    margin:0 auto;
+    min-height:600px;
+    max-width: 100%
+}
+
+.light_logo img{
+    max-width:60%;
+    margin-top: 20%;
+    margin-left:15%;
+}
+
+.dropdown-menu{
+    /* display:flex;
+    justify-content: space-between; */
+    background-color: black;
+    color: white;
+
+}
+
+.dropdown-item{
+    color: white;
+}
+
+/* #short_films:hover{
+    color: #c2c2c2;
+}
+.nav-item{
+    color:red;
+}
+
+.nav-item:hover{
+    color: #c2c2c2;
+} */
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+    
+}
+/* .dropdown:hover .dropdown-menu{
+    display:block;
+    color: #c2c2c2;
+} */
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+
+.row{
+    /* border:2px solid blue; */
+    text-align: center;
+}
+
+
+
+/* .nav-item ul{
+    display:flex;               
+    align-items: center;      
+
+} */
+
+/* .nav-item ul a{
+    margin:0 10px ;
+    letter-spacing: 2px;
+    font-size: 15px;
+
+} */
+
+/* boxes */
+.box-container a{
+    list-style: none;
+}
+
+/* .box-container a{          -------------------------------------------------------
+    list-style: none;
+} */
+
+.box-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% ;
+    grid-gap: 35px;
+    margin-top: 150px;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+    letter-spacing: 3px;
+
+}
+footer a{
+    list-style: none;
+    color: #1d1d1d;
+}
+
+.box-container img{
+    width:100%;
+    margin-bottom: 30px;
+
+}
+
+footer .footer-items{
+   text-align: center;
+   margin-top:100px;
+}
+
+.footer-items i{
+    font-size: 27px;
+}
+
+.footer-text{
+    text-decoration: none;
+    color:#1d1d1d
+}
+
+/* mobile version */
+@media screen and (max-width:640px){
+    
+    .navbar ul{
+        justify-content: flex-start;
+    }
+    
+    
+    /* .boxes-container{    
+        display: grid;
+        grid-template-columns:1fr;
+        margin-top:70px;    
+        } */
+    .header-image{
+            min-height: 700px;
+            width:100%;
+    }
+    /* .boxes-container img{       
+    } */
+    .light_logo{
+        text-align: center;
+    }
+    .loght_logo img{
+        width:90%;
+        margin-top:80%;
+    }
+    
+    }
+    
+    
